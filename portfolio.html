@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>About | Scott Strubberg</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,32 +19,90 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Scott Strubberg</a>
-          </div>
-      
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+
+    <header id="masthead">                    
+        <div class="container"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <p class="navbar-brand"><a href="index.html" id="logo">Scott Strubberg</a></p>
+            </div>
         
             
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+                </ul>
+            
+            </div>
+        </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+                <div class="col-md-6">
+                  <section class="main-section">
+                    <h1>Portfolio</h1>
               
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
+                    <div class="work">
+                      <img src="assets/images/abstract.jpg" alt="hangman">
+              
+                      <h3>Hangman</h3>
+                    </div>
+                    <div class="work">
+                      <img src="assets/images/city4.jpg" alt="RPG Game">
+              
+                      <h3>RPG Game</h3>
+                    </div>
+                    <div class="work">
+                      <img src="assets/images/nature.jpg" alt="Trivia Game">
+              
+                      <h3>Trivia Game</h3>
+                    </div>
+                    <div class="work">
+                      <img src="assets/images/people1.jpg" alt="Rutgers Info Widget">
+              
+                      <h3>Rutgers Info Widget</h3>
+                    </div>
+                    <div class="work">
+                      <img src="assets/images/people4.jpg" alt="Rock Paper Scissors">
+              
+                      <h3>Rock Paper Scissors</h3>
+                    </div>
+              
+                  </section>
+                </div>  
+            
+                
+                <div class="col-md-4">
+                        <section class="sidebar">
+                    <h3>Connect with Me</h3>
+                    <img src="assets/images/github.png" alt="github" class="social">
+                    <img src="assets/images/stackoverflow.png" alt="stackoverflow" class="social">
+                    <img src="assets/images/linkedin.png" alt="linkedin" class="social">
+                        </section>
+                </div>
+                
+            <div class="col-md-1"></div>    
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container container-notBS">
+            <p>Copyright © 2016 Scott Strubberg</p>
+        </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

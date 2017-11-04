@@ -19,47 +19,40 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-        <div class="row">
-            
-                <div class="col-md-12">    
-                    <nav class="navbar navbar-default">
-                        <div class="container-fluid">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                           
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                </button>
-                                <p class="navbar-brand">Scott Strubberg</p>
-                            </div>
-                        
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            
-                                
-                                <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
-                                
-                                </ul>
-                            
-                            </div><!-- /.navbar-collapse -->
-                        </div><!-- /.container-fluid -->
-                    </nav>
-                </div>
-            
-        </div>
-    </div>
 
-    <div class="container">
+
+
+    <header id="masthead">                    
+        <div class="container"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <p class="navbar-brand"><a href="index.html" id="logo">Scott Strubberg</a></p>
+            </div>
+        
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+                </ul>
+            
+            </div>
+        </div>
+    </header>
+
+    <div id="main-container" class="container">
         <div class="row">
             <div class="col-md-1"></div>
-                <div class="col-md-6 main-section">
+                <div class="col-md-6">
+                    <section class="main-section">
                     <div class="page-header">
                         <h1>About Me</h1>
                         <img src="assets/images/scott.jpg" alt="scott.jpg" class="img-responsive img-rounded auth-image">
@@ -67,14 +60,19 @@
                                 
                         <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice soufflé. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
                     </div>
+                    </section>
                 </div>  
             
-                <div class="col-md-4 sidebar">
+                
+                <div class="col-md-4">
+                        <section class="sidebar">
                     <h3>Connect with Me</h3>
-                    <img src="assets/images/github.png" alt="github" class="img-responsive img-rounded social">
-                    <img src="assets/images/stackoverflow.png" alt="stackoverflow" class="img-responsive img-rounded social">
-                    <img src="assets/images/linkedin.png" alt="linkedin" class="img-responsive img-rounded social">
+                    <img src="assets/images/github.png" alt="github" class="social">
+                    <img src="assets/images/stackoverflow.png" alt="stackoverflow" class="social">
+                    <img src="assets/images/linkedin.png" alt="linkedin" class="social">
+                        </section>
                 </div>
+                
             <div class="col-md-1"></div>    
         </div>
     </div>
